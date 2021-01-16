@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel = "stylesheet" href ="style.css">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href ="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-    </head>
-    <header>
 
-        <h1>
-                 Olivia Parsons     
-         </h1>
-         
-              <ul>
-                 <li><a href="index.html">Home</a></li>
-                 <li><a href="artwork.html">Artwork</a></li>
-                 <li><a href="contact.html">Contact</a></li>
-                 <a style = "float:left" target="_blank" href=" https://www.instagram.com/olivia_parsons_art/?hl=en" class="fa fa-instagram"></a>
-         </ul>
-         
-          
-    </header>
-    <body>
-    <h1>
-        Contact
-       
-    </h1>
-    </body>
+
+
+<body>
+  <header>
+  </header>
+  <nav>
+    
+  <h1>
+        Olivia Parsons    
+  </h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="artwork.html">Artwork</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <a style = "float:left; padding-left: 50px;" target="_blank" href=" https://www.instagram.com/olivia_parsons_art/?hl=en" class="fa fa-instagram"></a>
+      </ul>
+  </nav>
+  <div class ="emailform">
+    <p> Contact form</p>
+    <form class= "contact-form" action = "contact-form.php" method = "post">
+      <input type = "text" name = "name" placeholder = "Full name">
+      <input type = "text" name = "mail" placeholder = "Your e-mail">
+      <input type = "text" name = "subject" placeholder = "Subject">
+      <textarea name = "message" placeholder = "Message"></textarea>
+      <button type="submit" name="submit">Send</button>
+    </form>
+  </div>
+</body>
+  
 </html>

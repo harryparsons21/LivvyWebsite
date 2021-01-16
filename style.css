@@ -1,13 +1,10 @@
 
 ul {
-    list-style-type: none;
-    margin: 0;
+
     padding: 0;
-    width: 20%;
     position: fixed;
     height: 100%;
     padding-top: 10px;
-    background-color:#F7F7F7;
   }
   
   li a  {
@@ -18,21 +15,18 @@ ul {
     text-decoration: none;
   }
 
-  li a:hover:not(.active){
-      background-color:#F7F7F7;
-      color: black;
-  }
+
 
   body{
       background-color: #F7F7F7;
       margin: 0;
+      display: flex;
+      position: relative;
       
   }
 
   .fa-instagram {
-    background: #F7F7F7;
     color: black;
-    font-size: large;
     padding-top: 8px;
     text-align: left;
     
@@ -44,7 +38,6 @@ ul {
 img{
   max-width: 100%;
   height: auto;
-  
   margin-left:25%;
   padding:1px 16px;
   height: 1000px;
@@ -52,20 +45,25 @@ img{
 
 nav{
   position: fixed;
-  background-color:#F7F7F7;
-  display: block;
-  width: 20%;
+  width: 200px;
   overflow: auto;
-  float:left;
   height: 100%;
+  background-color: grey;
+
+
+
 
 }
 
 nav h1{
   font-family: "Gungsuh";
   padding-left: 46px;
-  background-color:#F7F7F7 ;
   font-weight: 100;
+
+}
+
+.emailform{
+  margin-left: 25%;
 
 }
 
